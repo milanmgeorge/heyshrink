@@ -1,0 +1,189 @@
+body {
+  background-image: url("../img/d.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1.heading {
+  color: #fbff14;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+p.brief {
+  color: #fbff14;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+body,
+html {
+  width: 100%;
+  height: 86%;
+  margin: 0;
+}
+.container {
+  padding: 20px;
+  margin: 16px;
+  width: 100%;
+  height: 86%;
+}
+.leftpane {
+  width: 50%;
+  height: 86%;
+  float: left;
+  border-collapse: collapse;
+}
+.rightpane {
+  width: 50%;
+  height: 86%;
+  float: right;
+  border-collapse: collapse;
+}
+.section {
+  color: #fbff14;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.list {
+  list-style-type: none;
+  text-align: center;
+  color: #fbff14;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a.href {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.href:hover {
+  color: white;
+}
+.navigation {
+  color: #00f3ff;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  display: flex;
+  box-shadow: 5px 5px 5px white;
+}
+.item {
+  list-style: none;
+  padding: 5px 100px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.submit {
+  font-family: "Times New Roman", Times, serif;
+}
+::placeholder {
+  font-family: "Times New Roman", Times, serif;
+}
+.inputs {
+  padding: 12px 12px 12px;
+
+  font-family: "Times New Roman", Times, serif;
+}
+.login {
+  padding-top: 10%;
+}
+.signup {
+  padding-top: 4%;
+}
+.about {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.aboutname {
+  color: #fbff14;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+#head_about {
+  padding-top: 10%;
+}
+.donate {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.illness {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+.aboutus {
+  margin: 20px;
+}
+.illnesscap {
+  color: #fbff14;
+}
+
+/*diary*/
+.entry-textbox {
+  display: flex;
+  align-items: center;
+  width: 85em;
+  height: 20em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  border-radius: 25px;
+  background-color: #012b67;
+  box-shadow: 5px 5px 5px white;
+  margin-left: 6%;
+}
+
+.entry-textbox:focus {
+  outline: none;
+  color: white;
+}
+
+#entryForm .button {
+  border-radius: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1em;
+  margin-left: 47%;
+}
+
+#entries {
+  color: #ede7e3;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 25px;
+  padding: 1em;
+  max-width: 85em;
+  border: unset;
+  margin-top: 1em;
+  background-color: #012b67;
+  box-shadow: 5px 5px 5px white;
+  margin-left: 6%;
+}
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button {
+  margin: 0.2em;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
+}
+.msg {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
